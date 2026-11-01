@@ -1,0 +1,24 @@
+Sample result table for Q1
+
+1) price=240, quantity=3, senior=1
+   Bill = 720.00
+   Discount = 108.00
+   Discounted = 612.00
+   GST = 30.60
+   Total = 642.60
+
+2) price=200, quantity=5, senior=0
+   Bill = 1000.00
+   GST = 50.00
+   Total = 1050.00
+
+3) price=1200, quantity=1, senior=1
+   Bill = 1200.00
+   Discount = 180.00
+   Discounted = 1020.00
+   GST = 51.00
+   Total = 1071.00
+   Extra Rs 50 discount above Rs 1000 => 1021.00
+
+Note:
+The expression `count = count++ + 1` is undefined behaviour. The C standard does not guarantee a stable result, so any observed output must be treated as non-portable and not as an expected final answer.

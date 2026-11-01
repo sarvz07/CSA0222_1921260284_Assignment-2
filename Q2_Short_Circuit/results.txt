@@ -1,0 +1,15 @@
+Sample function-call summary
+
+Case A: age first, then ticket, then verification
+- Fewer calls for passengers who are not senior citizens.
+- Verified only on relevant passengers.
+
+Case B: ticket first, then age, then verification
+- Similar result on good data, but costs may change if age and ticket distribution differs.
+
+Short-circuit principle:
+- `a && b` only evaluates `b` if `a` is true.
+- `a || b` only evaluates `b` if `a` is false.
+- `a & b` and `a | b` always evaluate both sides.
+
+This is why audit logging or verification functions should not be placed in a condition that can be short-circuited away.

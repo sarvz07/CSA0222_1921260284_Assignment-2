@@ -1,0 +1,6 @@
+# Q6 known sample
+# Principal: 10000
+# Rate: 2% per month
+# Payment: 2000
+# Iteration should stop once the balance becomes zero or negative.
+# Final payment must never exceed the outstanding balance.

@@ -1,0 +1,4 @@
+# Q2 discussion notes
+# For 1000 passengers, short-circuit evaluation avoids unnecessary verification calls when an earlier condition is already false.
+# This reduces runtime and avoids audit logging or expensive checks in irrelevant cases.
+# The exact count depends on data distribution; the important learning is that an early false condition stops further evaluation.

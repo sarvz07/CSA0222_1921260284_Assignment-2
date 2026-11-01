@@ -1,0 +1,4 @@
+# Q4 sample test values
+# 100, 90, 89, 80, 79, 70, 69, 60, 59, 50, 49, 0, -1, 101
+# Expected classification:
+# 100:S 95:S 83:A 50:D 49:F -5:?

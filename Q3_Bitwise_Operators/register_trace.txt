@@ -1,0 +1,11 @@
+# Q3 register trace
+# Example register states:
+# reg = 0            -> 00000000
+# set bit 0          -> 00000001
+# set bit 2          -> 00000101
+# clear bit 2        -> 00000001
+# set bit 1          -> 00000011
+# If the intended state is AC ON and PUMP OFF, the register must be interpreted with a bit map defined by the program.
+
+# Important note:
+# char and signed char can behave differently when bitwise operations use negative values. unsigned char avoids this issue.

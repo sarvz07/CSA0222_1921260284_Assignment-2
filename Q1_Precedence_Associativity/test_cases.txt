@@ -1,0 +1,8 @@
+# Q1 test cases
+# 1. Normal bill: price = 240, quantity = 3, senior = 1 -> final payable = Rs 684.00
+# 2. Boundary bill: price = 200, quantity = 5, senior = 0 -> final payable = Rs 1050.00
+# 3. Senior citizen case: price = 1200, quantity = 1, senior = 1 -> discount = 180; GST = 51; total = 1071; extra Rs 50 applied above Rs 1000 => final = 1021
+
+# Undefined behaviour example:
+# int count = 5; count = count++ + 1;
+# This is undefined in C because the value of count is modified and read in the same expression.
